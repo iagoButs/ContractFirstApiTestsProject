@@ -15,5 +15,6 @@ public class RequestSpecifications {
                         .header("Content-Type", "application/json; charset=utf-8")
                         .basePath(BASEPATH);
                 return (pojo == null)? req: req.body(pojo);
+
         }
 }

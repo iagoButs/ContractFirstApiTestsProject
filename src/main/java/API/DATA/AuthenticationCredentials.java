@@ -3,6 +3,7 @@ package API.DATA;
 public class AuthenticationCredentials {
 
     public static String userName="testUser",
-        password="testPassword";//they usually should be stored somewhere in secret, ex. into hashiCorp Vault.
+        password="testPassword",
+        jiraToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb250ZXh0Ijp7ImJhc2VVcmwiOiJodHRwczovL2lhZ29idXRza2hyaWtpZHplLmF0bGFzc2lhbi5uZXQiLCJ1c2VyIjp7ImFjY291bnRJZCI6IjcxMjAyMDo5NzdjNDk3Yi04MzU0LTRkZjctYjc0ZC02NzBjZTllNTIxYTIiLCJ0b2tlbklkIjoiNDQxMjgxNTctMjA1ZS00ZTZiLWI3MTctNjNiODI3MDYzNGE2In19LCJpc3MiOiJjb20ua2Fub2FoLnRlc3QtbWFuYWdlciIsInN1YiI6IjI4YmY3ZDUwLWUwZjItMzg3My1hYWNmLTU5NjgzMjdhNjU3YSIsImV4cCI6MTc2MDU1MTU4NywiaWF0IjoxNzI5MDE1NTg3fQ.5IgzVRmcOVzFHdRHfdnzhVbkBhK_Xdx68KNmXOqGVIU";//they usually should be stored somewhere in secret, ex. into hashiCorp Vault.
 
 }

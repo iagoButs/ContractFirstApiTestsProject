@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "src/test/resources/api-features",
-        glue = "API/steps"
+        glue = "API"
 //        plugin = {
 //        "pretty",
 //        "html:target/cucumber-html-report.html",
