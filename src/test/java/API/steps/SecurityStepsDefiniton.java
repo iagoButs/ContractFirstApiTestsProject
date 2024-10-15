@@ -4,6 +4,8 @@ import API.Utility.RequestSpecifications;
 import io.cucumber.java.en.*;
 import io.restassured.response.Response;
 import org.testng.Assert;
+import org.testng.annotations.Test;
+import zephyrScale.SendResultToJira;
 
 
 public class SecurityStepsDefiniton extends RequestSpecifications {
